@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
-
+                <button type="button" class="btn btn-primary">btn</button>
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
